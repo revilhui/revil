@@ -1,0 +1,200 @@
+.row {
+    margin-right: 0!important;
+}
+#text-spay {
+    display: none;
+}
+#bee-nav-header {
+    background: #242933;
+    border:none;
+}
+#bee-nav-header a{
+    color: #fff;
+}
+.navbar-nav li {
+    border-bottom: 2px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+}
+.navbar-nav li:hover {
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color:rgba(0,0,0,0.00);
+    color: rgb(66, 139, 246) !important;
+    border-bottom: 2px solid #428AF5;
+}
+.nav > li > a:hover i,.nav > li > a:focus i{ color: #fff;}
+.navbar-nav li a {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 25px;
+    position: relative;
+}
+.navbar-nav li a i{
+    display: inline-block;
+    width:30px;
+    height: 16px;
+    /*position: absolute;*/
+    left: -34px;
+    top:14px;
+    font-size: 12px;
+    line-height: 12px;
+    font-style: normal;
+    background-color: #dc2a2a;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.login-ul{
+}
+.login-ul>li{}
+.login-ul>li>a{  border: 1px solid #8d8d99;
+    margin: 0;
+    padding: 0;
+    width: 90px;
+    border-radius: 0;
+    height: 32px;
+    line-height: 28px;
+    margin-top: 4px;
+    font-size:16px;}
+.login-ul>li>a:hover, .login-ul>li>a:focus {
+    text-decoration: none;
+    background-color:rgba(0,0,0,0.00);
+    color: #FFFFFF !important;
+    border-bottom: 1px solid  #8d8d99;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background-color: transparent;
+}
+
+
+#bee-nav-header .dropdown-menu li a{
+    /*background-color: #ccc;*/
+    color: #333;
+    margin-right: 0;
+    padding: 0 20px;
+    font-size: 16px;
+}
+#bee-nav-header .dropdown-menu li a:hover{
+    background-color: #337ab7;
+    color: #fff;
+}
+/*#bs-bee-navbar-collapse{*/
+    /*width: 100%;*/
+    /*max-height: none;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 89px;*/
+/*}*/
+/*
+@charset "utf-8";
+#bee-nav-header {
+	  height: 88px;
+    background: #333;
+    border:none;
+}
+#bee-nav-header  a {
+    color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  padding: 9px 0px;
+  font-family: 微软雅黑 !important;
+  font-size: 1em;
+  line-height: 70px;
+  height: 65px;}
+.nav > li {
+    padding-right: 40px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color:rgba(0,0,0,0.00);
+  color: rgb(66, 139, 246) !important;
+  border-bottom: 2px solid #428AF5;
+  
+}
+.login-ul{
+	  border: 1px solid #8d8d99;}
+.login-ul>li{
+	}
+*/
+@media (max-width: 768px) {
+    .navbar-nav li a i {
+        left: 45px;
+    }
+    #btn-login {
+        width: 40%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    #left-nav-a img {
+        height: 46px;
+    }
+    #bs-bee-navbar-collapse {
+        background: rgba(0, 0, 0, .8);
+        max-height: 700px;
+        min-height: 660px;
+    }
+    #text-spay {
+        float: none;
+    }
+    #start-to-use .text {
+        font-size: 20px;
+        line-height: 60px!important;
+    }
+    #text-spay {
+        display: block;
+    }
+
+    /*.navbar-nav li a{*/
+        /*height: 32px;*/
+        /*line-height: 32px;*/
+    /*}*/
+
+    #bee-nav-header .dropdown-menu li a{
+        /*background-color: #ccc;*/
+        color: #fff;
+        /*margin-right: 0;*/
+        /*padding: 0 20px;*/
+        text-align: center;
+        height: 36px;
+        line-height: 36px;
+    }
+    #bee-nav-header .dropdown-menu li a:hover{
+        background-color: #337ab7;
+        color: #fff;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    /*.container {*/
+        /*width: 100%;*/
+        /*padding-left: 0;*/
+        /*padding-right: 0;*/
+    /*}*/
+}
+
+#right-nav{ margin-right: 20px;}
+.navbar-nav {
+    margin: 7.5px 0px!important;
+}
+@media (max-height: 590px) {
+    .navbar-nav li a{
+        height: 30px;
+        line-height: 30px;
+    }
+
+    #bee-nav-header .dropdown-menu li a{
+        /*background-color: #ccc;*/
+        color: #fff;
+        /*margin-right: 0;*/
+        /*padding: 0 20px;*/
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+    }
+}
